@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<body style="background-image: url(33.jpg);background-repeat: no-repeat; background-size: 1450px;"></body>
+<style>
+
+        *{
+            box-sizing: border-box;
+            color: whitesmoke;
+        }
+
+        .logo{
+            font-size: 35px;
+        }
+
+#navigation, #firstDivSection, .secondSection{
+     padding: 0px 50px;
+}
+
+        #navigation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul{
+            display: flex;
+        }
+
+        .links{
+            margin-right: 50px;
+            list-style: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .icons{
+           list-style: none;
+           color: whitesmoke;
+            margin-right: 10px;
+        }
+
+        .search, .join{
+            background-color: orange;
+            color: whitesmoke;
+            border: none;
+            border-radius: 10px;
+            padding: 4px 14px;
+        }
+
+        .firsthead{
+            font-size: 70px;
+            padding-top: 80px;
+            margin: 10px 0px !important;
+        }
+
+        .firstpara{
+            font-size: 18px;
+        }
+
+        .join{
+            padding: 10px 25px;
+            font-weight: 900;
+            color: black;
+        }
+
+        .secondSection{
+            background-color: black;
+            height: fit-content;
+            width: fit-content;
+            padding: 20px 25px;
+            text-align: center;
+            margin-top: 80px;
+            border-radius: 10px;
+            border: 3px solid whitesmoke;
+        }
+
+        #firstDivSection{
+            display: flex;
+            justify-content: space-between;
+        }
+        body{
+            background-repeat: no-repeat;
+        
+        }
+        button:hover{
+            background-color: rgb(81, 204, 33);;
+
+        }
+    </style>
+</head>
+
+
+    
+<nav id="navigation">
+ <div class="logo">PraRoz</div>
+
+ <ul>
+    <li class="links">Home</li>
+    <li class="links">About</li>
+    <li class="links">Service</li>
+    <li class="links">Design</li>
+    <li class="links">Contact</li>
+ </ul>
+
+ <div>
+    <input type="text" placeholder="Type to search" style="border: 2px solid orange; border-radius: 10px; padding-left: 10px;">
+    <button class="search">Search</button>
+ </div>
+</nav>
+
+
+<section id="firstDivSection">
+
+    <div class="firstSection">
+<h1 class="firsthead">
+Web Design & <br> <span>Development</span> <br> Course </h1>
+
+<p class="firstpara">
+Web Design is a specialisation of the design stream. They also use HTML.<br>
+CSS,WYSIWYG editing software, mark up validators etc.,<br>
+to create design elements.</p>
+
+<button class="join">JOIN US</button>
+</div>
+
+
+<div class="secondSection">
+
+    <form>
+        <button class="join" style="padding: 10px 67px;">JOIN US</button> <br><br>
+        <input type="text" style="padding: 10px 10px;" placeholder="Enter Email Here"><br><br>
+        <input type="password" style="padding: 10px 10px;" placeholder="Enter Password Here"><br><br>
+        <button class="join" style="padding: 10px 67px;">JOIN US</button><br><br>
+
+        <p class="account" style="color: whitesmoke;">Don't have an account</p>
+        <p class="account01" style="color: whitesmoke;">Sign up here</p>
+        <p class="account02" style="color: whitesmoke;">log in with</p>
+
+        <ul>
+    <li class="icons"><i class="fa-brands fa-facebook"></i></li>
+    <li class="icons"><i class="fa-brands fa-instagram"></i></li>
+    <li class="icons"><i class="fa-brands fa-twitter"></i></li>
+    <li class="icons"><i class="fa-brands fa-google"></i></li>
+    <li class="icons"><i class="fa-brands fa-skype"></i></li>
+ </ul>
+    </form>
+</div>
+
+</section>
+    
+</body>
+</html>
+
